@@ -1,0 +1,24 @@
+# west workspace
+.west/
+modules/
+optional/
+zephyr/
+zmk/
+zmk-pmw3610-driver/
+
+# build output
+build/
+*.uf2
+*.bin
+
+# local build script artifacts
+.venv/
+
+# vendor local additions
+vendor/zmk-rgbled-widget/boards/shields/rgbled_adapter/boards/xiao_ble.overlay
+
+# docs (design specs / plans)
+docs/
+
+# macOS
+.DS_Store
