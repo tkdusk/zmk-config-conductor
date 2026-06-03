@@ -21,5 +21,8 @@ vendor/zmk-rgbled-widget/boards/shields/rgbled_adapter/boards/xiao_ble.overlay
 # docs (design specs / plans)
 docs/
 
+# Claude Code context
+CLAUDE.md
+
 # macOS
 .DS_Store
