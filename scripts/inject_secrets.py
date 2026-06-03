@@ -23,11 +23,12 @@ path = 'config/monokey.keymap'
 with open(path) as f:
     content = f.read()
 
-if 'ENTER_PASS_PH' not in content:
-    print('ERROR: placeholder ENTER_PASS_PH not found in keymap', file=sys.stderr)
+PLACEHOLDER = '<&none>; // ENTER_PASS_PH'
+if PLACEHOLDER not in content:
+    print('ERROR: placeholder not found in keymap', file=sys.stderr)
     sys.exit(1)
 
 with open(path, 'w') as f:
-    f.write(content.replace('ENTER_PASS_PH', secret))
+    f.write(content.replace(PLACEHOLDER, f'<{secret}>;'))
 
 print('Secret macro injected.')
