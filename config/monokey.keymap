@@ -39,7 +39,7 @@
 
         scroll {
             bindings = <&mo 5>;
-            key-positions = <8 9>;
+            key-positions = <18 19>;
             timeout-ms = <50>;
         };
 
@@ -57,7 +57,7 @@
 
         gesture {
             bindings = <&mo 13>;
-            key-positions = <18 19>;
+            key-positions = <28 29>;
             timeout-ms = <50>;
         };
     };
