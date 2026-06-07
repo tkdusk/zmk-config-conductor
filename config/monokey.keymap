@@ -87,7 +87,7 @@
             bindings = <
 &kp LG(W)  &kp LG(LS(T))   &msc SCRL_UP    &kp RALT         &enter_pass                  &mt LS(N1) N1      &mt LS(N2) N2    &mt LS(N3) N3      &mt LS(N4) N4      &mt LS(N5) N5
 &none      &mkp RCLK       &mkp MCLK       &mkp LCLK        &none                        &mt LS(N6) N6      &mt LS(N7) N7    &mt LS(N8) N8      &mt LS(N9) N9      &mt LS(N0) N0
-&trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none                        &mt LS(SEMI) SEMI  &mt LS(SQT) SQT  &mt LS(RBKT) RBKT  &mt LS(BSLH) BSLH  &mt LS(INT_YEN) INT_YEN
+&none      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none                        &mt LS(SEMI) SEMI  &mt LS(SQT) SQT  &mt LS(RBKT) RBKT  &mt LS(BSLH) BSLH  &mt LS(INT_YEN) INT_YEN
 &trans     &trans          &trans          &trans           &trans       &trans  &trans  &studio_unlock                                         &trans             &mt LS(LBKT) LBKT
             >;
         };
